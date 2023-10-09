@@ -1,0 +1,36 @@
+DEVOPS INTRO:
+
+Hello,
+I'm Vishwachetan, My current team says iam a knowledgeable DevOps engineer. bringing my six years of hands-on experience in the field. 
+Over the course of my career, I've had the privilege of working with a wide array of DevOps tools and technologies, 
+enabling me to streamline and enhance the software development and delivery processes for my teams and organizations.
+My journey in DevOps has been marked by a passion for automation, collaboration, and continuous improvement. 
+I've successfully implemented and managed CI/CD pipelines, orchestrated containerized applications using Kubernetes, 
+and optimized infrastructure as code with tools like Terraform. 
+I've also played a pivotal role in promoting a culture of DevOps within my organizations, 
+In addition to my technical skills, I'm adept at problem-solving, troubleshooting, and adapting to rapidly evolving technology landscapes. 
+Beyond my professional life, I'm committed to continuous learning and staying up-to-date with the latest trends and advancements in the DevOps domain.
+I believe that staying curious and open to new ideas is essential in this field.
+I'm excited to connect with fellow DevOps professionals, share experiences, and contribute to the ongoing evolution of DevOps practices. 
+
+
+
+DAY TO DAY ACTIVITIES:
+
+I start my day atleast 30 mins prior to the standup call and look for updates of post working hours of my previous day and prepare for the meeting.
+And i update the team on the tickets which i have worked on the previous day and also update them on the tickets which ill be working on current day.
+This is how i start my day.
+I look for prioritising in the tickets assigned based on its environments as lower or higher and prioritise my tickets myself and work on them.
+We quite often get to work on new requirements from the clients to work on new changes which we take them as a new microservices and
+i mainly look into building these microservices to managing them and we have roughly 60-65 microservices.
+
+
+
+
+ABOUT THE APPLICATION:
+
+The backend is springboot java application we use AMAZON CORRETTO image as a base image for building our application and 
+for front end we use nodeJS image and we deploy in NGINX web server.
+
+
+
