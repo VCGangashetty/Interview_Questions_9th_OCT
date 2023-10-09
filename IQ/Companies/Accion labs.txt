@@ -12,18 +12,49 @@ Questions :
 6) how ll u install libraries in ubantu image
 
  Accions labs
-what exactaly jenkins pipelines ?
-how jenkins connect kubernates and plugins  using plugins?
-write jenkins pipe lines
-how to monitro kubernetive cluster?
-heml chart design kubernatics and premathuse ?
+8.what exactaly is jenkins pipelines?
+--Jenkins is a free opensource CI/CD tool where its pipelines help in automating the codechanges by the developer are reflected in the applicatiion for the customers.
+	Jenkins Pipeline is set to trigger whenever there is any code changes commits being pushed to the central repositories by the developers its starts to build the changed code.
+	 and then the pipeline is written in such a way that it automatically get tested for the stability and reliability of the code changes and is also designed package and deploy these changes in the webserver,
+	 for the use of endusers.
+---------------
+7.how jenkins connect kubernates plugins?
+--We need to install a plugin called Kubernetes in jenkins to connect jenkins to K8s.
+---------------
+6.how to monitor kubernetes cluster?
+--Monitoring a Kubernetes (K8s) cluster is essential for ensuring the health, performance, and reliability of your containerized applications and 
+	the underlying infrastructure.
+	1. Choose a monitoring tool.
+	2. Deploy monitoring components.
+	3. Configure data collection.
+	4. Visualize metrics and 
+	5. Alerting, log collection and analysis.
+	6. Resource/Cluster and Security monitoring.
+	7. Disaster recovery. 
+---------------
+5.heml chart design kubernatics and premathuse ?
 design a heml chart?
-what kind of database premathues use?
-and why we use 
-why use ansible in project?
-write ansible playbook?
-terraform and ansible diffrent?
-network loadbalance and application laod balancer?
+---------------
+4.what kind of database prometheus uses and why it uses this type of database?
+--Prometheus uses time-series database specifically designed for monitoring and alerting purposes.
+	where each data point is associated with a timestamp. This makes it particularly useful for monitoring and recording metrics that change over time.
+---------------
+3.why use ansible in project?
+--ansible is used to manage the required configurations in the already existing clour resources: eg: We can update/install any packages in all the resources at once with a simple code.
+	Ansible is also mainly used to automate these package updates or installation whenever required.
+---------------
+2.terraform and ansible diffrent?
+--yes terraform and ansible both are different as:
+	1. Terraform: Is the famous opensource tool to write the IaC configuration for the provisioning of public cloud resources and it supports most of the top cloud resource providers like: AWS/Azure/GCP.
+	2. Ansible: Is the famous opensource configuration management tool, manages the infrastructure  by writing a code rather than using a manual process so that it can be automated,tested and deployed very easily.
+---------------
+1.network loadbalance and application laod balancer?
+--These are different types of Elastic load balancers: 
+	1.NLB--Works at transport layer 4 of OSI model and is designed for handling TCP, TLS and UPD Traffic, 
+		best suited for applications required extreme high performance and low latency to handle millions of requests per seconds.
+	2.ALB--Works at the application layer 7 of OSI model(open-system-interconnection), It can make routing decisions based on the content within the http and https headers.
+		Allowing more advanced request routing. i.e., path-based and host based routing. 
+		
 
 Accion Labs
 how to intall setup of kubernets ec2 instance?
