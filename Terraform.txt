@@ -1,0 +1,6 @@
+Whats is Terraform?
+
+--Terraform is a opensource tool from hashicorp used to write IaC to automate provisioning of public cloud resources.
+--Terraform is written in Golang and available in github.
+--Terraform helps in prediction of changes though plans and we can know what changes will be applied before applying it.
+--Terraform code is safe to run manytimes because terraform only apply the changes for the first time, if the changes are not there in the statefile.
