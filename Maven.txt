@@ -1,0 +1,149 @@
+1.What are the phases of a Maven Build Life Cycle?
+
+The phases of the Maven Build Life Cycle are as follows,--(VCTPIVID--Validate,compile,test,package, integration test, verify,install, deploy)
+
+• validate - This validates the correctness of the project and ensures all the necessary information is available.
+
+• compile - Used to compile the source code of the project
+
+• test - Used to test the compiled source code with a unit testing framework. This does not require the code to be packaged.
+
+• package - This is used to packaged the compiled code and package it into a distributable format such as a JAR.
+
+• integration-test - Used to run integration test on the packaged file
+
+• verify - run checks on the packaged file is valid and meets the required quality criteria
+
+• install - install the package into the local repository to be used as a dependency in other projects locally
+
+• deploy - used in release environments to deploy copies of the final package to the remote repository for sharing with other projects and developers.
+
+-------------------
+2. Name the 3 build life cycles of Maven?
+
+The 3 build lifecycles of Maven are as follows,
+
+a. default or build - This is used to build the application.
+
+b. clean - This is used to clean up the artifacts of the previous builds.
+
+c. site - This is used to generate the site documentation of the project.
+
+--------------------
+3. What information does POM contain?
+
+The Project Object Model consists of the following configuration information they are as follows:
+
+• Build profiles
+
+• Developers
+
+• Goals
+
+• Mailing list
+
+• Plugins
+
+• Project dependencies
+
+• Project version
+
+
+--------------------
+4. What is maven?
+
+Maven is a build automation tool used primarily for java based projects also 
+it is called as project management tool as it manages the complete build lifecycle.
+
+It helps devops engineers by providing automation around the build phase of the devops lifecycle management.
+
+--------------------
+5.What is a Maven Repository?
+
+A Maven repository is the storage place for the 
+1.Entire library jar, 
+2.Project jars and 
+3.Plugins, and 
+4.All other project artifacts. This can be used by Maven easily.
+
+--------------------
+6.Different maven plugins are:
+
+1. Build Plugins
+2. Reporting Plugins
+
+--------------------
+7. Different types of maven repo's are:
+
+1. Central,
+2. Local and 
+3. Remote
+
+--------------------
+8.What is a Maven artifact?
+
+A Maven artifact is a file usually a jar that is stored in the Maven repository. 
+It consists of an artifact group ID, an artifact ID, and a version string. 
+The three uniquely form an artifact. 
+The artifacts are called as project dependencies. 
+A Maven build produces one or more such artifacts such as Complied jar and source jars.
+
+--------------------
+9.What is Build Profile?
+
+Using the build profile we can customize build for the different environments such as development or production. 
+The build profile is a set of configuration values required to set or override the default Maven build.
+
+--------------------
+10.What are the different types of Build Profiles?
+
+Build profiles are of 3 types they are as follows,
+
+• Per project - defined in the project POM file, pom.xml
+
+• Global - defined in Maven global settings XML file
+
+• Per User - defined in Maven settings XML file
+
+--------------------
+11.What are the phases of the site life cycle?
+
+The phases of the site life cycle are as follows,
+
+• pre-site
+
+• site
+
+• post-site
+
+• site-deploy
+
+--------------------
+12. What are the phases of the clean life cycle?
+
+The clean life cycle consists of the following phases
+
+• pre-clean
+
+• clean
+
+• post-clean
+
+--------------------
+13.Why are the Maven Plugins used?
+
+The Maven plugins are used for the following things,
+
+• compile code files.
+
+• create a jar file.
+
+• create project documentation.
+
+• create project reports.
+
+• create a war file.
+
+• unit testing of code.
+
+---------------------------------------------------------------------
