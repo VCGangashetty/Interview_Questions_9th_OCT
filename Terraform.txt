@@ -4,3 +4,22 @@ Whats is Terraform?
 --Terraform is written in Golang and available in github.
 --Terraform helps in prediction of changes though plans and we can know what changes will be applied before applying it.
 --Terraform code is safe to run manytimes because terraform only apply the changes for the first time, if the changes are not there in the statefile.
+--Terraform scripts can be version controlled means we can keep the terraform scripts related to our project in the github.
+--Terraform maintains state of the resources, so that it wont allow the duplication of same resources.
+
+Terraform providers:
+--Terraform providers are the API's to interact with the public cloud, in our project we are using AWS as the public cloud provider.
+--We will have only one terraform provider block or file in complete terraform related project.
+--create a provider.tf file--
+Provider "aws" {
+		access_key = ""
+		secret_key = ""
+		region = ""
+	}
+
+
+Terraform registry:
+--Is a repository of modules and resources written by terraform for public cloud providers, which we use to provision the public cloud resources.
+
+Terraform init:
+--
